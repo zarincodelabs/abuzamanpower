@@ -143,6 +143,10 @@ echo "❌ Found external assets that need to be localized!"
 - All `.emergent` assets successfully localized
 - Hero background video (`hero-background-video.mp4`) stored locally
 - Testimonial images stored in organized folders  
+- **Team member images** stored locally in `/assets/images/team/`:
+  - `muhammad-zubair-khan-ceo.jpg` - CEO
+  - `muhammad-uzair-khan-business-dev.jpg` - Business Development Manager
+  - `abdul-wahab-manager-ops.jpg` - Manager Office Operations
 - Zero external asset dependencies
 
 ## 📞 Support
