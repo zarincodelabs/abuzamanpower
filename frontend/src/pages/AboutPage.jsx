@@ -64,6 +64,7 @@ const AboutPage = () => {
       <UniversalBreadcrumb 
         title="About ABZUA Manpower"
         subtitle="Your trusted partner in international recruitment, connecting Pakistani talent with global opportunities since 2016"
+        backgroundImage="https://images.unsplash.com/photo-1516216628859-9bccecab13ca?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80"
       />
 
       {/* Company Story */}
