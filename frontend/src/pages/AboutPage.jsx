@@ -15,22 +15,22 @@ const AboutPage = () => {
 
   const team = [
     {
-      name: "Muhammad Tariq",
-      position: "Chief Executive Officer", 
-      image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80",
-      bio: "15+ years experience in international recruitment and business development"
+      name: "Muhammad Zubair Khan",
+      position: "CEO", 
+      image: "https://customer-assets.emergentagent.com/job_a0ad7631-faa1-4fc1-bbea-e51cbd0b08e3/artifacts/l6ju3izf_Muhammad%20Zubair%20Khan%20-%20CEO.jpg",
+      bio: "Visionary leader driving international recruitment excellence and business growth"
     },
     {
-      name: "Sarah Ahmed",
-      position: "Director Operations",
-      image: "https://images.unsplash.com/photo-1494790108755-2616b612b568?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80", 
-      bio: "Expert in visa processing and documentation with 12 years experience"
+      name: "Muhammad Uzair Khan",
+      position: "Business Development Manager",
+      image: "https://customer-assets.emergentagent.com/job_a0ad7631-faa1-4fc1-bbea-e51cbd0b08e3/artifacts/tjnj68yi_Muhammad%20Uzair%20Khan%20-%20Business%20development%20manager.jpg", 
+      bio: "Strategic business development expert expanding our global partnerships and market presence"
     },
     {
-      name: "Ali Hassan",
-      position: "Head of Recruitment",
-      image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80",
-      bio: "Specialized in Gulf recruitment with extensive employer network"
+      name: "Abdul Wahab",
+      position: "Manager Office Operations",
+      image: "https://customer-assets.emergentagent.com/job_a0ad7631-faa1-4fc1-bbea-e51cbd0b08e3/artifacts/le7xjc36_Abdul%20Wahab%20-%20Manager%20Office%20operations.jpg",
+      bio: "Operations management specialist ensuring smooth workflow and efficient service delivery"
     }
   ];
 
