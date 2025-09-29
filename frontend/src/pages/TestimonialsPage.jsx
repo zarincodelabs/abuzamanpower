@@ -179,8 +179,9 @@ const TestimonialsPage = () => {
       
       {/* Universal Breadcrumb Hero Section */}
       <UniversalBreadcrumb 
-        title="Success Stories"
+        title="Success Stories & Testimonials"
         subtitle="Real testimonials from professionals who transformed their careers and employers who found their perfect candidates through ABZUA Manpower"
+        backgroundImage="https://images.pexels.com/photos/9260295/pexels-photo-9260295.jpeg?auto=compress&cs=tinysrgb&w=2000"
       />
 
       {/* Category Tabs */}
