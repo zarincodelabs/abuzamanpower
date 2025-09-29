@@ -13,7 +13,7 @@ const HeroSection = () => {
   };
 
   const handleJobSeekerClick = () => {
-    window.open("https://wa.me/923323277946?text=I%20am%20looking%20for%20international%20job%20opportunities.%20Please%20guide%20me%20about%20available%20positions.", "_blank");
+    window.open("https://wa.me/923340004481?text=I%20am%20looking%20for%20international%20job%20opportunities.%20Please%20guide%20me%20about%20available%20positions.", "_blank");
   };
 
   const handleVideoLoad = () => {
