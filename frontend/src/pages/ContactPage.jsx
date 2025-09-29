@@ -71,7 +71,7 @@ Professional Profile:
 
 I'm interested in international job opportunities. Please guide me about available positions and requirements.`;
 
-    window.open(`https://wa.me/923323277946?text=${encodeURIComponent(message)}`, "_blank");
+    window.open(`https://wa.me/923340004481?text=${encodeURIComponent(message)}`, "_blank");
   };
 
   return (
