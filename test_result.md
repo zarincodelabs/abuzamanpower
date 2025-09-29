@@ -105,17 +105,17 @@
 user_problem_statement: Add relevant headings and background images to breadcrumb banners on each page
 
 frontend:
-  - task: "Update WhatsApp number for job seekers only"
+  - task: "Add relevant headings and background images to breadcrumb banners"
     implemented: true
     working: true
-    file: "/app/frontend/src/pages/ContactPage.jsx"
+    file: "/app/frontend/src/components/common/UniversalBreadcrumb.jsx"
     stuck_count: 0
     priority: "high"
     needs_retesting: false
     status_history:
         - working: true
         - agent: "main"
-        - comment: "Successfully updated WhatsApp number from +92 332 3277946 to +92 334 0004481 for job seeker applications only. Updated 6 job seeker specific WhatsApp links while keeping employer-related links with the old number. Changes made in ContactPage.jsx (job seeker form), GalleryPage.jsx, IndustriesPage.jsx, TestimonialsPage.jsx, HeroSection.jsx, ProcessSection.jsx, and ServicesPage.jsx."
+        - comment: "Successfully added relevant background images and improved headings for breadcrumb banners across all pages. Modified UniversalBreadcrumb component to accept backgroundImage prop. Updated 6 pages with page-specific professional construction worker images and enhanced titles: About (team image), Services (worker image), Industries (height worker), Gallery (construction crew), Testimonials (industrial), Contact (warehouse)."
 
   - task: "Replace testimonial images with realistic ones"
     implemented: true
