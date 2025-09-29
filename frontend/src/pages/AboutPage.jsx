@@ -17,19 +17,19 @@ const AboutPage = () => {
     {
       name: "Muhammad Zubair Khan",
       position: "CEO", 
-      image: "https://customer-assets.emergentagent.com/job_a0ad7631-faa1-4fc1-bbea-e51cbd0b08e3/artifacts/l6ju3izf_Muhammad%20Zubair%20Khan%20-%20CEO.jpg",
+      image: "/assets/images/team/muhammad-zubair-khan-ceo.jpg",
       bio: "Visionary leader driving international recruitment excellence and business growth"
     },
     {
       name: "Muhammad Uzair Khan",
       position: "Business Development Manager",
-      image: "https://customer-assets.emergentagent.com/job_a0ad7631-faa1-4fc1-bbea-e51cbd0b08e3/artifacts/tjnj68yi_Muhammad%20Uzair%20Khan%20-%20Business%20development%20manager.jpg", 
+      image: "/assets/images/team/muhammad-uzair-khan-business-dev.jpg", 
       bio: "Strategic business development expert expanding our global partnerships and market presence"
     },
     {
       name: "Abdul Wahab",
       position: "Manager Office Operations",
-      image: "https://customer-assets.emergentagent.com/job_a0ad7631-faa1-4fc1-bbea-e51cbd0b08e3/artifacts/le7xjc36_Abdul%20Wahab%20-%20Manager%20Office%20operations.jpg",
+      image: "/assets/images/team/abdul-wahab-manager-ops.jpg",
       bio: "Operations management specialist ensuring smooth workflow and efficient service delivery"
     }
   ];
