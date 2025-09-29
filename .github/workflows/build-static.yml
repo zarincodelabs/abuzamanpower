@@ -1,0 +1,57 @@
+name: Build Static Site
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [ main, master ]
+    paths: ['frontend/**']
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+      
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '18'
+        
+    - name: Install dependencies
+      working-directory: ./frontend
+      run: |
+        npm install -g yarn
+        yarn install --frozen-lockfile
+      
+    - name: Build static site
+      working-directory: ./frontend
+      run: yarn build
+      env:
+        CI: false
+        
+    - name: Prepare deployment files
+      run: |
+        mkdir -p static-build
+        cp -r frontend/build/* static-build/
+        
+    - name: Create ZIP archive
+      run: |
+        cd static-build
+        tar -czf ../abzua-static-build.tar.gz .
+        cd ..
+        
+    - name: Upload build artifacts (Folder)
+      uses: actions/upload-artifact@v4
+      with:
+        name: static-build-folder
+        path: static-build/
+        retention-days: 7
+        
+    - name: Upload ZIP file
+      uses: actions/upload-artifact@v4
+      with:
+        name: abzua-static-build-zip
+        path: abzua-static-build.tar.gz
+        retention-days: 7

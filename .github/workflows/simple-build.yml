@@ -1,0 +1,33 @@
+name: Simple Static Build (No Cache)
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v4
+      
+    - uses: actions/setup-node@v4
+      with:
+        node-version: 18
+        
+    - name: Build Site
+      run: |
+        cd frontend
+        npm install -g yarn
+        yarn install
+        yarn build
+        cd ..
+        mkdir website-files
+        cp -r frontend/build/* website-files/
+        tar -czf website-ready.tar.gz website-files/
+        
+    - name: Upload Website Files
+      uses: actions/upload-artifact@v4
+      with:
+        name: website-ready
+        path: website-ready.tar.gz
+        retention-days: 5
