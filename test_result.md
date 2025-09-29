@@ -102,7 +102,7 @@
 # Testing Data - Main Agent and testing sub agent both should log testing data below this section
 #====================================================================================================
 
-user_problem_statement: Center breadcrumb content on desktop to match mobile/tablet layout alignment
+user_problem_statement: Update WhatsApp number for job seekers from +92 332 3277946 to +92 334 0004481 (employers keep old number)
 
 frontend:
   - task: "Center breadcrumb content on desktop view"
