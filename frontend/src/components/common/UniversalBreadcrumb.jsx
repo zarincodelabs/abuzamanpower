@@ -237,48 +237,16 @@ const UniversalBreadcrumb = ({ title, subtitle, customBreadcrumbs = null, backgr
             className="space-y-6 text-center flex flex-col items-center justify-center w-full"
           >
             <motion.h1 
-              className="text-3xl md:text-5xl lg:text-6xl font-bold text-white leading-tight"
+              className="text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight mb-4"
+              initial={{ opacity: 0, scale: 0.9 }}
+              animate={{ opacity: 1, scale: 1 }}
+              transition={{ duration: 0.6, delay: 0.6 }}
               style={{
-                textShadow: "0 0 20px rgba(34, 197, 94, 0.8), 0 0 40px rgba(34, 197, 94, 0.6), 0 0 60px rgba(34, 197, 94, 0.4), 0 0 80px rgba(245, 158, 11, 0.3)",
-                filter: "drop-shadow(0 0 25px rgba(34, 197, 94, 0.9))"
-              }}
-              animate={{
-                textShadow: [
-                  "0 0 20px rgba(34, 197, 94, 0.8), 0 0 40px rgba(34, 197, 94, 0.6), 0 0 60px rgba(245, 158, 11, 0.4)",
-                  "0 0 30px rgba(34, 197, 94, 1), 0 0 60px rgba(34, 197, 94, 0.8), 0 0 90px rgba(245, 158, 11, 0.6)",
-                  "0 0 20px rgba(34, 197, 94, 0.8), 0 0 40px rgba(34, 197, 94, 0.6), 0 0 60px rgba(245, 158, 11, 0.4)"
-                ]
-              }}
-              transition={{
-                duration: 2.5,
-                repeat: Infinity,
-                ease: "easeInOut"
+                textShadow: "0 0 20px rgba(34, 197, 94, 0.8), 0 0 40px rgba(34, 197, 94, 0.6), 0 4px 8px rgba(0, 0, 0, 0.8)",
+                filter: "drop-shadow(0 0 15px rgba(34, 197, 94, 0.7))"
               }}
             >
-              <motion.span
-                initial={{ opacity: 0, scale: 0.9 }}
-                animate={{ opacity: 1, scale: 1 }}
-                transition={{ duration: 0.6, delay: 0.6 }}
-                style={{
-                  background: "linear-gradient(45deg, #ffffff, #10b981, #f59e0b, #ffffff)",
-                  backgroundSize: "300% 300%",
-                  WebkitBackgroundClip: "text",
-                  WebkitTextFillColor: "transparent",
-                  backgroundClip: "text"
-                }}
-                animate={{
-                  backgroundPosition: ["0% 50%", "100% 50%", "0% 50%"]
-                }}
-                transition={{
-                  backgroundPosition: {
-                    duration: 4,
-                    repeat: Infinity,
-                    ease: "linear"
-                  }
-                }}
-              >
-                {title}
-              </motion.span>
+              {title}
             </motion.h1>
             
             {subtitle && (
