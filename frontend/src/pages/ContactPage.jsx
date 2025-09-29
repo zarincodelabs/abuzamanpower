@@ -79,8 +79,9 @@ I'm interested in international job opportunities. Please guide me about availab
       
       {/* Universal Breadcrumb Hero Section */}
       <UniversalBreadcrumb 
-        title="Contact Us"
-        subtitle="Start your international career journey today - We respond within 5 minutes on WhatsApp"
+        title="Contact ABZUA Manpower"
+        subtitle="Start your international career journey today - We respond within 5 minutes on WhatsApp for immediate assistance"
+        backgroundImage="https://images.pexels.com/photos/1325719/pexels-photo-1325719.jpeg?auto=compress&cs=tinysrgb&w=2000"
       />
 
       {/* Quick Contact Info */}
