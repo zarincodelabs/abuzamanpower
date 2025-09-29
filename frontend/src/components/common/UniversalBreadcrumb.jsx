@@ -41,11 +41,11 @@ const UniversalBreadcrumb = ({ title, subtitle, customBreadcrumbs = null, backgr
     <section className="relative py-16 md:py-20 overflow-hidden">
       {/* Enhanced Background with Better Overlay */}
       <div className="absolute inset-0 z-0">
-        {/* Background Image - Construction/Workforce Theme */}
+        {/* Dynamic Background Image - Page Specific */}
         <div 
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{
-            backgroundImage: "url('https://images.unsplash.com/photo-1504307651254-35680f356dfd?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80')"
+            backgroundImage: `url('${backgroundImage || 'https://images.unsplash.com/photo-1504307651254-35680f356dfd?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80'}')`
           }}
         />
         
