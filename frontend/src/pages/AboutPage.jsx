@@ -200,11 +200,13 @@ const AboutPage = () => {
               <Card key={member.name} className="text-center overflow-hidden hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2">
                 <CardContent className="p-0">
                   <div className="relative">
-                    <img 
-                      src={member.image}
-                      alt={member.name}
-                      className="w-full h-64 object-contain bg-gray-100"
-                    />
+                    <div className="aspect-square overflow-hidden">
+                      <img 
+                        src={member.image}
+                        alt={member.name}
+                        className="w-full h-full object-cover"
+                      />
+                    </div>
                     <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>
                   </div>
                   <div className="p-6 space-y-4">
