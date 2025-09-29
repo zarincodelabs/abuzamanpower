@@ -105,17 +105,17 @@
 user_problem_statement: Update team section with new team member images and designations
 
 frontend:
-  - task: "Add relevant headings and background images to breadcrumb banners"
+  - task: "Update team section with new team member images and designations"
     implemented: true
     working: true
-    file: "/app/frontend/src/components/common/UniversalBreadcrumb.jsx"
+    file: "/app/frontend/src/pages/AboutPage.jsx"
     stuck_count: 0
     priority: "high"
     needs_retesting: false
     status_history:
         - working: true
         - agent: "main"
-        - comment: "Successfully added relevant background images and improved headings for breadcrumb banners across all pages. Modified UniversalBreadcrumb component to accept backgroundImage prop. Updated 6 pages with page-specific professional construction worker images and enhanced titles: About (team image), Services (worker image), Industries (height worker), Gallery (construction crew), Testimonials (industrial), Contact (warehouse)."
+        - comment: "Successfully updated team section with 3 new team members: Muhammad Zubair Khan (CEO), Muhammad Uzair Khan (Business Development Manager), and Abdul Wahab (Manager Office Operations). All images and designations updated correctly from provided assets."
 
   - task: "Replace testimonial images with realistic ones"
     implemented: true
