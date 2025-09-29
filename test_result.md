@@ -102,7 +102,7 @@
 # Testing Data - Main Agent and testing sub agent both should log testing data below this section
 #====================================================================================================
 
-user_problem_statement: Add relevant headings and background images to breadcrumb banners on each page
+user_problem_statement: Update team section with new team member images and designations
 
 frontend:
   - task: "Add relevant headings and background images to breadcrumb banners"
