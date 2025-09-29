@@ -3,7 +3,7 @@ import { Home, ChevronRight } from "lucide-react";
 import { Link, useLocation } from "react-router-dom";
 import { motion } from "framer-motion";
 
-const UniversalBreadcrumb = ({ title, subtitle, customBreadcrumbs = null }) => {
+const UniversalBreadcrumb = ({ title, subtitle, customBreadcrumbs = null, backgroundImage = null }) => {
   const location = useLocation();
 
   // Default breadcrumb generation based on path
