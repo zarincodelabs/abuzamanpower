@@ -158,6 +158,7 @@ const IndustriesPage = () => {
       <UniversalBreadcrumb 
         title="Industries We Serve"
         subtitle="Specialized recruitment solutions across diverse industries, connecting Pakistani talent with global opportunities in high-demand sectors"
+        backgroundImage="https://images.unsplash.com/photo-1530639834082-05bafb67fbbe?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80"
       />
 
       {/* Overview Section */}
