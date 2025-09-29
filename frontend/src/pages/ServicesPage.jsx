@@ -117,6 +117,7 @@ const ServicesPage = () => {
       <UniversalBreadcrumb 
         title="Our Services"
         subtitle="Comprehensive recruitment and placement solutions designed to connect Pakistani talent with international opportunities"
+        backgroundImage="https://images.unsplash.com/photo-1614127938540-a1139bee1841?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80"
       />
 
       {/* Main Services */}
