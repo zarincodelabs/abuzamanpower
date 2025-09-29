@@ -131,8 +131,9 @@ const GalleryPage = () => {
       
       {/* Universal Breadcrumb Hero Section */}
       <UniversalBreadcrumb 
-        title="Gallery"
-        subtitle="Explore our journey through images and videos - from training programs to successful departures"
+        title="Our Gallery"
+        subtitle="Explore our journey through images and videos - from training programs to successful departures and career transformations"
+        backgroundImage="https://images.unsplash.com/photo-1613326640775-f2e8f5dbf853?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80"
       />
 
       {/* Gallery Tabs */}
