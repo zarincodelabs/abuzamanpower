@@ -180,7 +180,20 @@ test_plan:
 
 agent_communication:
     - agent: "main"
-    - message: "✅ GALLERY IMAGES SUCCESSFULLY UPDATED! Replaced all random stock photos with relevant Pakistani Asian professionals and Gulf/European buildings. Updated 4 gallery sections: Training Programs (Pakistani professionals in safety training), Departures & Success Stories (Pakistani professionals celebrating achievements), Office & Facilities (Gulf-European style modern buildings), and hero background (Dubai Marina cityscape). All images now 100% relevant to Pakistani manpower recruitment agency context. Descriptions updated to specifically mention Pakistani professionals and international opportunities."
+    - message: "✅ TOPBAR ADDRESS CORRECTED! Fixed incorrect Lahore address in desktop topbar and replaced with correct Rawalpindi address from footer: 'Office No 310, 3rd floor, Rawal Mall and Residencia, near Rahmanabad Metro Stop, Rawalpindi'. Now topbar and footer both show consistent and accurate office location."
+
+frontend:
+  - task: "Fix topbar address - replace incorrect Lahore address with correct Rawalpindi address"
+    implemented: true
+    working: true
+    file: "/app/frontend/src/components/layout/Topbar.jsx"
+    stuck_count: 0
+    priority: "high"
+    needs_retesting: false
+    status_history:
+        - working: true
+        - agent: "main"
+        - comment: "Successfully updated topbar address from incorrect 'Al-Hafeez Heights, MM Alam Road, Lahore' to correct 'Rawal Mall and Residencia, near Rahmanabad Metro Stop, Rawalpindi'. Address now matches footer and all contact pages for consistency."
 
 frontend:
   - task: "Update gallery page with relevant Pakistani Asian and Gulf building images"
