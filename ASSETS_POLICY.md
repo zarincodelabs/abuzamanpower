@@ -19,7 +19,7 @@ This document outlines the strict policy for storing all assets (images, videos,
 ├── images/
 │   ├── testimonials/          # Customer testimonial photos
 │   ├── logo/                  # Company logos and branding
-│   ├── gallery/              # Gallery images
+│   ├── gallery/              # Gallery images (Pakistani/Indian professionals)
 │   ├── team/                 # Team member photos
 │   └── general/              # General website images
 ├── videos/
