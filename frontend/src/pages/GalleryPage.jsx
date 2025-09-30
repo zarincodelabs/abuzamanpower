@@ -15,35 +15,35 @@ const GalleryPage = () => {
   const galleryCategories = {
     training: {
       title: "Training Programs",
-      description: "Skill development and certification programs",
+      description: "Skill development and certification programs for Pakistani professionals",
       items: [
         {
           type: "image",
-          src: "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-          title: "Construction Skills Training",
+          src: "https://images.unsplash.com/photo-1659355894058-c02512c16533",
+          title: "Professional Development Training",
           date: "March 2024",
-          description: "Advanced construction techniques and safety training for Gulf deployment"
+          description: "Pakistani professionals receiving comprehensive training for international opportunities"
         },
         {
           type: "image", 
-          src: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-          title: "Healthcare Training Program",
+          src: "https://images.unsplash.com/photo-1659353588972-f3be41ae0834",
+          title: "Construction Safety Training",
           date: "February 2024",
-          description: "Medical professionals receiving specialized training for European hospitals"
+          description: "Pakistani workers getting specialized safety training for Gulf construction projects"
         },
         {
           type: "image",
-          src: "https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-          title: "Technical Skills Workshop",
+          src: "https://images.unsplash.com/photo-1659353589316-d4b2ed41ad2f",
+          title: "Industrial Skills Workshop",
           date: "January 2024", 
-          description: "Engineering and technical skills enhancement program"
+          description: "Hands-on technical training for Pakistani engineering professionals"
         },
         {
           type: "image",
-          src: "https://images.unsplash.com/photo-1517048676732-d65bc937f952?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-          title: "Language Training Session",
+          src: "https://images.unsplash.com/photo-1659353589251-8da8f0a93599",
+          title: "Safety Certification Program",
           date: "December 2023",
-          description: "English and German language training for international candidates"
+          description: "Comprehensive safety training for Pakistani workers heading to international projects"
         }
       ]
     },
