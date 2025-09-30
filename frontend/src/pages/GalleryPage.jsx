@@ -111,6 +111,15 @@ const GalleryPage = () => {
   };
 
   const openLightbox = (images, index) => {
+    const selectedItem = images[index];
+    
+    // If it's a YouTube video, open in new tab
+    if (selectedItem.type === "youtube") {
+      window.open(selectedItem.src, "_blank");
+      return;
+    }
+    
+    // For regular images and videos, use lightbox
     setLightboxImages(images);
     setCurrentImageIndex(index);
     setLightboxOpen(true);
