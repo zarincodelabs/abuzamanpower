@@ -49,28 +49,28 @@ const GalleryPage = () => {
     },
     departures: {
       title: "Departures & Success Stories",
-      description: "Celebrating successful placements and departures",
+      description: "Celebrating successful placements and departures of Pakistani professionals",
       items: [
         {
           type: "image",
-          src: "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-          title: "UAE Departure Ceremony",
+          src: "https://images.pexels.com/photos/9221770/pexels-photo-9221770.jpeg",
+          title: "Professional Team Success",
           date: "March 2024",
-          description: "50 construction workers departing for Dubai construction projects"
+          description: "Pakistani professionals celebrating successful placement in international companies"
         },
         {
           type: "image",
-          src: "https://images.unsplash.com/photo-1544376664-80b17f09d399?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80", 
-          title: "Germany Healthcare Team",
+          src: "https://images.pexels.com/photos/7616608/pexels-photo-7616608.jpeg", 
+          title: "Business Professional Achievement",
           date: "February 2024",
-          description: "Medical professionals heading to German hospitals"
+          description: "Pakistani business professional ready for European assignment"
         },
         {
           type: "image",
-          src: "https://images.unsplash.com/photo-1559827260-dc66d52bef19?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-          title: "Qatar Engineering Team",
+          src: "https://images.unsplash.com/photo-1654509800710-f7af7e089983",
+          title: "Corporate Success Story",
           date: "January 2024",
-          description: "Engineers departing for Qatar infrastructure projects"
+          description: "Asian professional celebrating career advancement through ABZUA Manpower"
         }
       ]
     },
