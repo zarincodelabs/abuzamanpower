@@ -133,7 +133,7 @@ const GalleryPage = () => {
       <UniversalBreadcrumb 
         title="Our Gallery"
         subtitle="Explore our journey through images and videos - from training programs to successful departures and career transformations"
-        backgroundImage="https://images.unsplash.com/photo-1613326640775-f2e8f5dbf853?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80"
+        backgroundImage="https://images.unsplash.com/photo-1677508397828-0e65fd4aabe3?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDQ2Mzl8MHwxfHNlYXJjaHwyfHxEdWJhaSUyMGNpdHlzY2FwZXxlbnwwfHx8fDE3NTkyMDU4OTF8MA&ixlib=rb-4.1.0&q=85"
       />
 
       {/* Gallery Tabs */}
