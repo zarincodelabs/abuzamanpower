@@ -184,7 +184,7 @@ const GalleryPage = () => {
                           <video 
                             src={item.src}
                             className="w-full h-full object-cover"
-                            poster="https://images.unsplash.com/photo-1611224923853-80b023f02d71?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                            poster="https://images.pexels.com/photos/7277960/pexels-photo-7277960.jpeg"
                           />
                           <div className="absolute inset-0 bg-black/30 flex items-center justify-center group-hover:bg-black/20 transition-colors duration-300">
                             <div className="w-16 h-16 bg-white/90 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
