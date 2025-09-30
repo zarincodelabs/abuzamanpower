@@ -173,12 +173,28 @@ const GalleryPage = () => {
                     
                     {/* Media Container */}
                     <div className="relative aspect-video overflow-hidden">
-                      {item.type === "video" ? (
+                      {item.type === "youtube" ? (
+                        <div className="relative w-full h-full bg-black flex items-center justify-center">
+                          <img 
+                            src={`https://img.youtube.com/vi/${item.videoId}/maxresdefault.jpg`}
+                            alt={item.title}
+                            className="w-full h-full object-cover"
+                            onError={(e) => {
+                              e.target.src = `https://img.youtube.com/vi/${item.videoId}/hqdefault.jpg`;
+                            }}
+                          />
+                          <div className="absolute inset-0 bg-black/30 flex items-center justify-center group-hover:bg-black/20 transition-colors duration-300">
+                            <div className="w-16 h-16 bg-red-600 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+                              <Play className="h-8 w-8 text-white ml-1" />
+                            </div>
+                          </div>
+                        </div>
+                      ) : item.type === "video" ? (
                         <div className="relative w-full h-full bg-black flex items-center justify-center">
                           <video 
                             src={item.src}
                             className="w-full h-full object-cover"
-                            poster="https://images.pexels.com/photos/7277960/pexels-photo-7277960.jpeg"
+                            poster="/assets/gallery/business-meeting.jpg"
                           />
                           <div className="absolute inset-0 bg-black/30 flex items-center justify-center group-hover:bg-black/20 transition-colors duration-300">
                             <div className="w-16 h-16 bg-white/90 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
