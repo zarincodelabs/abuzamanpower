@@ -18,7 +18,7 @@ const Topbar = () => {
     },
     {
       icon: MapPin,
-      text: "Office No 310, 3rd floor, Al-Hafeez Heights, MM Alam Road, Lahore",
+      text: "Office No 310, 3rd floor, Rawal Mall and Residencia, near Rahmanabad Metro Stop, Rawalpindi",
       href: "#",
       type: "address"
     }
