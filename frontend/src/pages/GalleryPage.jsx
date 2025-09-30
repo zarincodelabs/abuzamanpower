@@ -53,24 +53,17 @@ const GalleryPage = () => {
       items: [
         {
           type: "image",
-          src: "https://images.pexels.com/photos/9221770/pexels-photo-9221770.jpeg",
-          title: "Professional Team Success",
+          src: "/assets/gallery/business-meeting.jpg",
+          title: "Success Team Celebration",
           date: "March 2024",
-          description: "Pakistani professionals celebrating successful placement in international companies"
+          description: "Pakistani professionals celebrating successful placement in international companies through ABZUA Manpower"
         },
         {
           type: "image",
-          src: "https://images.pexels.com/photos/7616608/pexels-photo-7616608.jpeg", 
-          title: "Business Professional Achievement",
+          src: "/assets/gallery/professional-success.jpg", 
+          title: "Business Achievement Ceremony",
           date: "February 2024",
-          description: "Pakistani business professional ready for European assignment"
-        },
-        {
-          type: "image",
-          src: "https://images.unsplash.com/photo-1654509800710-f7af7e089983",
-          title: "Corporate Success Story",
-          date: "January 2024",
-          description: "Asian professional celebrating career advancement through ABZUA Manpower"
+          description: "Pakistani business professionals celebrating successful European assignment deployment"
         }
       ]
     },
