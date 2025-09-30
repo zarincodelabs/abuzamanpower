@@ -76,28 +76,28 @@ const GalleryPage = () => {
     },
     office: {
       title: "Office & Facilities",
-      description: "Modern office environment and facilities",
+      description: "Modern office environment and Gulf-European style facilities",
       items: [
         {
           type: "image",
-          src: "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-          title: "Main Office Reception",
+          src: "https://images.unsplash.com/photo-1565522560779-f91d8720472c",
+          title: "Modern Office Complex",
           date: "2024",
-          description: "Modern reception area in Rawalpindi office"
+          description: "Contemporary office building representing our professional standards"
         },
         {
           type: "image",
-          src: "https://images.unsplash.com/photo-1497366216548-37526070297c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-          title: "Consultation Rooms", 
+          src: "https://images.unsplash.com/photo-1588581286556-58d465b9114f",
+          title: "Corporate Headquarters", 
           date: "2024",
-          description: "Private consultation rooms for candidate interviews"
+          description: "State-of-the-art facility matching international standards"
         },
         {
           type: "image",
-          src: "https://images.unsplash.com/photo-1556761175-4b46a572b786?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-          title: "Training Facility",
+          src: "https://images.unsplash.com/photo-1655215057855-014c4706c089",
+          title: "Gulf-Style Business Tower",
           date: "2024",
-          description: "State-of-the-art training rooms and equipment"
+          description: "Modern architecture representing our global reach and partnerships"
         }
       ]
     },
