@@ -19,31 +19,31 @@ const GalleryPage = () => {
       items: [
         {
           type: "image",
-          src: "https://images.unsplash.com/photo-1659355894058-c02512c16533",
-          title: "Professional Development Training",
+          src: "/assets/gallery/construction-training.jpg",
+          title: "Construction Safety Training",
           date: "March 2024",
-          description: "Pakistani professionals receiving comprehensive training for international opportunities"
+          description: "Pakistani professionals receiving comprehensive construction safety training for international projects"
         },
         {
           type: "image", 
-          src: "https://images.unsplash.com/photo-1659353588972-f3be41ae0834",
-          title: "Construction Safety Training",
+          src: "/assets/gallery/pakistani-professional-1.jpg",
+          title: "Professional Development Training",
           date: "February 2024",
-          description: "Pakistani workers getting specialized safety training for Gulf construction projects"
+          description: "Pakistani business professionals getting specialized training for Gulf opportunities"
         },
         {
           type: "image",
-          src: "https://images.unsplash.com/photo-1659353589316-d4b2ed41ad2f",
-          title: "Industrial Skills Workshop",
+          src: "/assets/gallery/construction-site.jpg",
+          title: "On-Site Technical Training",
           date: "January 2024", 
-          description: "Hands-on technical training for Pakistani engineering professionals"
+          description: "Hands-on technical training for Pakistani engineering professionals in construction sector"
         },
         {
           type: "image",
-          src: "https://images.unsplash.com/photo-1659353589251-8da8f0a93599",
-          title: "Safety Certification Program",
+          src: "/assets/gallery/indian-professionals.jpg",
+          title: "Corporate Skills Development",
           date: "December 2023",
-          description: "Comprehensive safety training for Pakistani workers heading to international projects"
+          description: "Professional skills enhancement program for South Asian candidates heading to international markets"
         }
       ]
     },
