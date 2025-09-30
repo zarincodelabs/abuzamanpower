@@ -99,11 +99,12 @@ const GalleryPage = () => {
       description: "Company introduction and success story videos",
       items: [
         {
-          type: "video",
-          src: "/assets/videos/hero-background-video.mp4",
-          title: "Company Introduction Video",
+          type: "youtube",
+          src: "https://www.youtube.com/embed/s2jQvE2KCbw",
+          videoId: "s2jQvE2KCbw",
+          title: "ABZUA Manpower Company Introduction",
           date: "2024",
-          description: "Complete overview of ABZUA Manpower services and success stories"
+          description: "Complete overview of ABZUA Manpower services, success stories, and our commitment to connecting Pakistani professionals with international opportunities"
         }
       ]
     }
