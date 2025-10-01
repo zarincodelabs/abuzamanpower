@@ -18,7 +18,7 @@ const Navbar = () => {
     { name: "About", href: "/about", icon: User },
     { name: "Services", href: "/services", icon: Settings },
     { name: "Industries", href: "/industries", icon: Building },
-    { name: "Gallery", href: "/gallery", icon: Image },
+    // { name: "Gallery", href: "/gallery", icon: Image }, // Temporarily hidden - will enable after image updates
     { name: "Testimonials", href: "/testimonials", icon: Star },
     { name: "Contact", href: "/contact", icon: Phone },
   ];
