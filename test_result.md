@@ -180,7 +180,20 @@ test_plan:
 
 agent_communication:
     - agent: "main"
-    - message: "✅ TOPBAR ADDRESS CORRECTED! Fixed incorrect Lahore address in desktop topbar and replaced with correct Rawalpindi address from footer: 'Office No 310, 3rd floor, Rawal Mall and Residencia, near Rahmanabad Metro Stop, Rawalpindi'. Now topbar and footer both show consistent and accurate office location."
+    - message: "✅ GALLERY PAGE HIDDEN FROM NAVIGATION! Successfully removed Gallery links from both navbar and footer as requested. Gallery page is temporarily hidden from public navigation until images are updated in future. Navigation now shows: Home | About | Services | Industries | Testimonials | Contact. Gallery page code remains intact for future activation after image updates."
+
+frontend:
+  - task: "Hide Gallery page from navigation (navbar and footer)"
+    implemented: true
+    working: true
+    file: "/app/frontend/src/components/layout/Navbar.jsx, /app/frontend/src/components/layout/Footer.jsx"
+    stuck_count: 0
+    priority: "medium"
+    needs_retesting: false
+    status_history:
+        - working: true
+        - agent: "main"
+        - comment: "Successfully hidden Gallery page from public navigation by commenting out Gallery links in both Navbar.jsx and Footer.jsx. Page remains accessible via direct URL and code is preserved for future reactivation after image improvements. Added comments indicating temporary status."
 
 frontend:
   - task: "Fix topbar address - replace incorrect Lahore address with correct Rawalpindi address"
