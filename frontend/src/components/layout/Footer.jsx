@@ -33,7 +33,7 @@ const Footer = () => {
               {[
                 { name: "Our Services", href: "/services" },
                 { name: "Industries", href: "/industries" },
-                { name: "Gallery", href: "/gallery" },
+                // { name: "Gallery", href: "/gallery" }, // Temporarily hidden
                 { name: "Testimonials", href: "/testimonials" },
                 { name: "Contact", href: "/contact" },
                 { name: "Privacy Policy", href: "/privacy" },
